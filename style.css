@@ -1,0 +1,33 @@
+
+.fightarea {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 5px solid #020092;
+    border-radius: 10px;
+    background: linear-gradient( #02d7fd, #ffffff);
+}
+
+.player1, .monster {
+    flex: 1;
+}
+
+.health-bar {
+    height: 10px;
+    border: 1px solid #706e6e;
+    border-radius: 5px;
+}
+
+.health-bar .bar{
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log {
+    border: 1px dotted #706e6e;
+    height: 200px;
+    
+    overflow-y: scroll;
+    background: linear-gradient(#ffffff, #02d7fd);
+}
